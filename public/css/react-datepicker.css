@@ -1,0 +1,15 @@
+.react-datepicker__input-container > input {
+  /* width: 100% !important;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e4e7ec;
+  text-align: center; */
+  @apply w-full mr-4 p-2 rounded-lg outline-none text-sm font-normal text-[#0A0A0A] text-center;
+}
+.react-datepicker__close-icon {
+  @apply right-1;
+}
+.react-datepicker__close-icon::after {
+  /* background-color: var(--primary-bg-color); */
+  @apply bg-danger-main;
+}
